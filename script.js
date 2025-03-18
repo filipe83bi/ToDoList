@@ -10,6 +10,7 @@ const createTask = function () {
 
   if (!inputValue) return;
   taskListElement.innerHTML += newTask;
+  inputFieldElement.value = "";
 };
 
 submitButtonElement.addEventListener("click", createTask);
