@@ -62,6 +62,6 @@ body {
   flex-direction: column;
   align-items: flex-start;
 }
-#checkbox {
-  width: 5rem;
+#checked {
+  padding-left: 1rem;
 }
