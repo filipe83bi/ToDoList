@@ -25,7 +25,6 @@ const createTask = function () {
   li.appendChild(input);
   li.appendChild(span);
   span.innerHTML = taskConcat;
-  console.log(li);
   taskListElement.appendChild(li);
 };
 
